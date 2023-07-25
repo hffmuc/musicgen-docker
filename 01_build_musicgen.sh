@@ -1,11 +1,11 @@
 # This script is used to load the docker image and run the container
-git clone -b v1.0 https://github.com/camenduru/audiocraft
+#git clone -b v1.0 https://github.com/camenduru/audiocraft
 
 # Copy the dockerfile to the audiocraft folder
-cp Dockerfile audiocraft/Dockerfile
+#cp Dockerfile audiocraft/Dockerfile
 
 # cd into the audiocraft folder
-cd audiocraft
+#cd audiocraft
 
 # Build the docker image
 docker build -t musicgen .
