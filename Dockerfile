@@ -38,4 +38,4 @@ ENV GRADIO_SERVER_NAME 0.0.0.0
 ENV NVIDIA_VISIBLE_DEVICES=all
 
 # Set the command to run the app
-CMD cd /home/audiocraft && python3 -u app.py --listen 0.0.0.0 --server_port 7860
+CMD cd /home/audiocraft && python3 -u app.py --listen 0.0.0.0 --server_port 7863
